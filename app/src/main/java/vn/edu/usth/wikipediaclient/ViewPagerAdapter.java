@@ -25,7 +25,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
         } else if (position == 1) {
             return new HistoryFragment();
         } else if (position == 2) {
-            return  new MyArticleFragment();
+            return  new AddArticleFragment();
         } else if (position == 3) {
             return new AccountFragment();
         } else {
